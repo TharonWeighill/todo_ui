@@ -1,20 +1,18 @@
 import './App.css';
-import "./styles.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Todos from "./Todos";
 
 function App() {
   return (
     <div className="App">
       <Router>
-          <Switch>
+          <Routes>
               <Route exact path="/" children={<Todos />} />
               <Route path="/todos/:id" children={<Todos />} />
-          </Switch>
-
+          </Routes>
       </Router>
     </div>
   );
 }
-
 export default App;
