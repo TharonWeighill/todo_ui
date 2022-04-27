@@ -26,15 +26,25 @@ export default class TodoForm extends Component {
         const { listName, listBody } = this.state;
         return (
             <div>
+                <div className = "form-box">
                 <form onSubmit={this.submitHandler}>
-                    <div>
+                    <div className="listName-box">
                         <input type="text" name="listName" value={listName} placeholder="List Name" onChange={this.changeHandler}/>
                     </div>
-                    <div>
+                    <div className="listName-box">
                         <input type="text" name="listBody" value={listBody} placeholder="List Body" onChange={this.changeHandler}/>
                     </div>
-                    <button type="submit">Create Todo List</button>
+                    <div className="listName-box">
+                        <button type="submit">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            Create Todo List
+                        </button>
+                    </div>
                 </form>
+                </div>
             </div>
         )
     }
