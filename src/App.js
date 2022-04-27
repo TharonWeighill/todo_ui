@@ -7,8 +7,6 @@ import FusionAuthLogin from './components/FusionAuthLogin';
 import TodoForm from './components/TodoForm';
 import FetchTodoLists from "./components/TodoLists";
 
-
-
 function App() {
   return (
       <div className='todo-app'>
