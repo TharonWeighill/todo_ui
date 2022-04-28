@@ -1,8 +1,4 @@
 import React from 'react';
-import {link} from "react-router-dom";
-import TodoForm from "./TodoForm";
-import FetchTodoLists from "./TodoLists";
-
 
 export default class Home extends React.Component {
     render () {
@@ -13,8 +9,6 @@ export default class Home extends React.Component {
                 <br />
                 <a href="http://localhost:3000/todo_lists">All Todo Lists</a>
             </div>
-        )}
-
-    ;
-
+        )
+    }
 }

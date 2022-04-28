@@ -13,6 +13,7 @@ function App() {
       <div className='todo-app'>
           <h1 className='todo-header'>This is a Todo App that uses<div className='FA'>FusionAuth</div>and<div className='CS'>CleanSpeak</div></h1>
               <Routes>
+                  <Route path="/" element={<Home />} />
                   <Route path="/home" element={<Home />} />
                   <Route path="/login" element={<FusionAuthLogin />} />
                   <Route path="/logout" element={<FusionAuthLogout />} />
