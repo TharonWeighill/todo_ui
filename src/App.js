@@ -15,22 +15,24 @@ function App() {
   return (
       <div className='todo-app'>
           <div className='logo1'>
-              <img src={logo}/>
+              <a href='https://fusionauth.io/'><img src={logo}/></a>
           </div>
           <div className='logo2'>
-              <img src={logo2}/>
+              <a href='https://cleanspeak.com/'><img src={logo2}/></a>
           </div>
 
           <Navbar />
-          <h1 className='todo-header'>This is a Todo App that uses
+          <h1 className='todo-header'>This is an example app that uses
+              <div className='FA-CS'>
               <div className='FA'>
                   <a href='https://fusionauth.io/'>FusionAuth</a>
               </div>
-              <div>
-                  And
+              <div className='and'>
+                  and
               </div>
               <div className='CS'>
                   <a href='https://cleanspeak.com/'>CleanSpeak</a>
+              </div>
               </div>
           </h1>
           <Routes>
