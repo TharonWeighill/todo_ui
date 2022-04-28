@@ -14,6 +14,13 @@ h1 {
     padding: 3rem 0 0 3rem;
     color: #fff;
 }
+h2 {
+    color: red;
+    font-size: 83px;
+    position: absolute;
+    top: 200px;
+}
+
 .FA a {
     text-decoration: none;
     color: #ff8a00;

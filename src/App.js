@@ -8,6 +8,7 @@ import FetchTodoLists from "./components/TodoLists";
 import Navbar from "./components/NavBar";
 import Home from "./components/Home";
 import React from "react";
+import Logout from "./components/Logout";
 
 const logo = require('./images/gray-orange-logo-with-tagline.png');
 const logo2 = require('./images/cleanspeak-horizontal.png')
@@ -36,10 +37,11 @@ function App() {
               </div>
           </h1>
           <Routes>
-              <Route path="/home" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="/new_todo" element={<TodoForm />} />
               <Route path="/todo_lists" element={<FetchTodoLists />} />
               <Route path="*" element={<ErrorPage />} />
+              <Route path='/logout' element={<Logout />} />
           </Routes>
     </div>
   )
