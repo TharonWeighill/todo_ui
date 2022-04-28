@@ -7,11 +7,10 @@
 }
 .navMenu {
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .navMenu a {
     font-family: "Roboto", Arial, sans-serif;
     color: #ffffff;
@@ -20,16 +19,16 @@
     text-transform: uppercase;
     font-weight: 900;
     width: 100px;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+    /*-webkit-transition: all 0.2s ease-in-out;*/
+    /*transition: all 0.2s ease-in-out;*/
 }
 
 .navMenu a:hover {
     background: #ff8a00;
-    color: #407ce1;
+    color: #3F99F1E8;
     border-radius: 5px;
     box-shadow: 0 0 5px #ff8a00,
-    0 0 25px #407ce1,
+    0 0 25px #3F99F1E8,
     0 0 50px #ff8a00,
-    0 0 100px#407ce1;
+    0 0 100px#3F99F1E8;
 }

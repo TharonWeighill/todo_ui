@@ -65,12 +65,12 @@
 
 .form-box button:hover {
     background: #ff8a00;
-    color: #407ce1;
+    color: #3F99F1E8;
     border-radius: 5px;
     box-shadow: 0 0 5px #ff8a00,
-    0 0 25px #407ce1,
+    0 0 25px #3F99F1E8,
     0 0 50px #ff8a00,
-    0 0 100px#407ce1;
+    0 0 100px#3F99F1E8;
 }
 
 .form-box button span {
@@ -101,7 +101,7 @@
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent,#407ce1);
+    background: linear-gradient(180deg, transparent,#3F99F1E8);
     animation: btn-anim2 1s linear infinite;
     animation-delay: .25s
 }
@@ -120,7 +120,7 @@
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent,#407ce1);
+    background: linear-gradient(270deg, transparent,#3F99F1E8);
     animation: btn-anim3 1s linear infinite;
     animation-delay: .5s
 }
