@@ -1,51 +1,22 @@
 body {
     font-family: "Roboto", Arial, sans-serif;
-    min-height: 100vh;
-    background-color: #101010;
+    background-color: #3a3939;
 }
-
 header {
-    position: fixed;
-    width: 100%;
+    width: 90%;
 }
-
-/* Create angled background with 'before' pseudo-element */
-
 h1 {
     font-size: calc(2.8em + 2.6vw);
     font-weight: 700;
     letter-spacing: .01em;
     padding: 10rem 0 0 4.5rem;
-    text-shadow: .022em .022em .022em #111;
     color: #fff;
 }
 .FA {
+
     color: #ff8a00;
 }
 
 .CS {
     color: #2460cb;
 }
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-    display:block;text-align:center;
-    font-family: "Roboto", Arial, sans-serif;
-    font-weight: 700;
-    letter-spacing: .01em;
-    text-shadow: .022em .022em .022em #111;
-    font-size: calc(2.8em + 2.6vw);
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    /* ...and now for the proper property */
-    transition:.5s;
-}
-a:hover { color:gray; }
-
-
-
-
-
